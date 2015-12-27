@@ -2,8 +2,8 @@
 	<widget xmlns = "http://www.w3.org/ns/widgets"
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		id        = "com.brilliantapp.flash"
-		versionCode="1.0"
-		version   = "5">
+		versionCode="1.1"
+		version   = "6">
 		<name>Flash Light</name>
 		<description>
 simple application to turn flash light on and off		</description>

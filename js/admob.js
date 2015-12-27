@@ -12,8 +12,8 @@
     var admobid = {};
     if( /(android)/i.test(navigator.userAgent) ) {
         admobid = {
-            banner: 'ca-app-pub-4457719262099261/1476962432',
-            interstitial: 'ca-app-pub-4457719262099261/2953695637'
+            banner: 'ca-app-pub-4457719262099261/6589989637',
+            interstitial: 'ca-app-pub-4457719262099261/8066722832'
         };
     } else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {
         admobid = {
@@ -45,7 +45,7 @@
             // x: integer,    // valid when set position to 0 / POS_XY
             // y: integer,    // valid when set position to 0 / POS_XY
             // isTesting: false, // set to true, to receiving test ad for testing purpose
-            // autoShow: true // auto show interstitial ad when loaded, set to false if prepare/show
+            autoShow: true // auto show interstitial ad when loaded, set to false if prepare/show
         };
         AdMob.setOptions( defaultOptions );
         registerAdEvents();
