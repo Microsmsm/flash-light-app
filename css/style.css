@@ -22,6 +22,13 @@ nav h1 {
 	font-family:sans-serif;
 	color:#FFFFFF;
 }
+.space{
+	display:block;
+	height:calc(50% - 160px);
+	width:100%;
+	background:black;
+	visibility:hidden;
+}
 
 .rbtn {
 	text-align:center;
@@ -32,16 +39,14 @@ nav h1 {
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
-	position: relative;
-  top: 50%;
-  transform: translateY(-50%);
 	border-radius:150px;
 	border: 2px dotted #FFBDBF;
 }
-.rbtn:hover {
+.rbtn:active {
 	background:#16A085;
 }
 .rbtn h1 {
 	font-family:sans-serif;
 	color:#FFFFFF;
 }
+

@@ -12,10 +12,11 @@
      #fullpage {display: none;}
     </style>
 </head>
-<body>
+<body onload="onLoad()" onresize="onResize()">
     <nav> 
         <h1>Flash Light App</h1>
     </nav>
+    <span class="space">.</span>
     <div ontouchstart="window.plugins.flashlight.toggle();" class="rbtn">
     	<h1>Flash</h1>
     </div>
