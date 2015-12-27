@@ -1,0 +1,47 @@
+/* CSS Document */
+html,body {
+	width:100%;
+	height:100%;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	background: #e3e3e3;
+}
+nav {
+	background: #16a085;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	
+	-webkit-box-shadow: 1px 1px 10px 1px #000000;
+	box-shadow: 1px 1px 10px 1px #000000;
+}
+nav h1 {
+	line-height:50px;
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	font-family:sans-serif;
+	color:#FFFFFF;
+}
+
+.rbtn {
+	text-align:center;
+	background:#D52A2D;
+	width:160px;
+	height:160px;
+	line-height:120px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+	border-radius:150px;
+	border: 2px dotted #FFBDBF;
+}
+.rbtn:hover {
+	background:#16A085;
+}
+.rbtn h1 {
+	font-family:sans-serif;
+	color:#FFFFFF;
+}
